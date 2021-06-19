@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>DOM y Eventos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+
+	<main>
+		<div class="fila">
+			<div class="caja">
+				<h2>Como se llama la profe</h2>
+				<p>Selecciona correctamente el nombre y apellido de una profe</p>
+				<form>
+					<select id="nombre">
+						<option value="0">Seleccione un nombre</option>
+						<option value="1">Jennifer</option>
+						<option value="2">Tatiana</option>
+						<option value="3">Juliana</option>
+					</select>
+
+					<select id="apellido">
+						<option value="0">Seleccione un apellido</option>
+						<option value="1">Cabrera</option>
+						<option value="2">Correal</option>
+						<option value="3">Fajardo</option>
+					</select>
+					<div>
+					<input type="image" src="imagenes/pregunta.png" id="boton">
+					</div>
+
+				</form>
+
+
+				<div id="correcto">
+					
+				</div>
+
+			</div>
+			<div class="caja">
+				<h2>Acertijo Matemático</h2>
+				<p>Cuatro gatos en un cuarto, cada gato en un rincón, cada gato ve tres gatos, adivina cuántos gatos son</p>
+				<div>
+				<h3>Selecciona tu respuesta</h3>
+				<div class="opciones">
+					<input type="image" src="imagenes/3.png" id="num3" class="boton">
+					<input type="image" src="imagenes/4.png" id="num4" class="boton">
+					<input type="image" src="imagenes/5.png" id="num5" class="boton">
+				</div>
+				</div>
+	
+
+				<div id="acertijo">
+				
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="fila">
+			<div class="caja">
+				<h2>Completa el refrán</h2>
+				<p>"Camarón que se duerme se lo lleva la..."</p><br><br>
+				<form>
+					<div class="oprefran">
+	    				<input type="radio" name="palabra" id="palabra" value="1">Corriente</input>
+	    				<input type="radio" name="palabra" id="palabra" value="2">Marea</input>
+	    				<input type="radio" name="palabra" id="palabra" value="3">Ola</input>	    				
+	  				</div>
+	  				<div>
+	   					<input type="image" src="imagenes/refran.png" id="botonenviar">
+	 				</div>
+				</form>
+
+
+				<div id="resp">
+					
+				</div>
+
+			</div>
+			<div class="caja">
+				<h2>Adivinanza</h2>
+				<p>Corren más que los minutos pero... nunca llegan los primeros!!! ¿qué son?</p>
+				<div>
+					<div class="seleccion">
+						<button type="button" id="pista" class="botones">Dame una Pista</button>
+						<button type="button" id="solucion" class="botones">Ver Solucion</button>
+					</div>
+				</div>	
+
+				<div id="adivina">
+				
+				</div>
+				
+			</div>
+		</div>
+		
+
+	</main>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
